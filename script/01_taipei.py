@@ -43,7 +43,7 @@ if __name__ == '__main__':
     list_url = 'https://beta.data.taipei/api/dataset/downloadList?format=csv'
     f_name = '01_taipei'
 
-    # ===== Download ot Load data =====
+    # ===== Download or Load data =====
     # downloadList(list_url, f_name)
     load()
 

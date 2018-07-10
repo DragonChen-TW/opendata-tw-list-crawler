@@ -67,8 +67,6 @@ def process():
         temp["資料量"] = ""
         temp["主要欄位"] = row["主要欄位"].replace('\n','')
         # ---
-        print(temp["編號"], temp['資料集名稱'])
-
         temp["下載次數"] = row["下載次數"]
         temp["瀏覽次數"] = row["瀏覽次數"]
 
@@ -79,7 +77,7 @@ if __name__ == '__main__':
     list_url = 'https://data.tycg.gov.tw/opendata/rule/downloadList?output=csv'
     f_name = '03_taoyuan'
 
-    # ===== Download ot Load data =====
+    # ===== Download or Load data =====
     # downloadList(list_url, f_name)
     load()
 
