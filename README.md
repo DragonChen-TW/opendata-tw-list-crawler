@@ -62,7 +62,7 @@
 
 ### 桃園市 Taoyuan
 清冊資料完整，除了瀏覽、下載次數沒有放進去  
-介面簡單、清楚  
+介面簡單、清楚
 
 ### 新竹市 Hsinchu
 清冊資料過少
@@ -76,7 +76,7 @@
 ### 宜蘭縣 Ilan
 pass
 
-### 新竹縣 Taipei
+<!-- ### 新竹縣 Taipei
 ### 台中市 Taipei
 ### 高雄市 Taipei
 ### 金門縣 Taipei
@@ -91,4 +91,4 @@ pass
 ### 雲林縣 Taipei
 ### 嘉義縣 Taipei
 ### 花蓮縣 Taipei
-### 連江縣 Taipei
+### 連江縣 Taipei -->
