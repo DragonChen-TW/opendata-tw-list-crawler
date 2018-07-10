@@ -6,7 +6,7 @@
 | 1  | 台北市  | Taipei          | No       | Yes      |
 | 2  | 新北市  | NewTaipei       | CKAN     | Yes      |
 | 3  | 桃園市  | Taoyuan          | No       | Yes      |
-| 4  | 新竹市  | Hsinchu          | Yes      | Yes      |
+<!-- | 4  | 新竹市  | Hsinchu          | Yes      | Yes      |
 | 5  | 台南市  | Taipei          | Yes      | Yes      |
 | 6  | 宜蘭縣  | Taipei          | Yes      | Yes      |
 | 7  | 新竹縣  | Taipei          | Yes      | Yes      |
@@ -24,7 +24,7 @@
 | 19 | 雲林縣  | Taipei          | Yes      | Yes      |
 | 20 | 嘉義縣  | Taipei          | Yes      | Yes      |
 | 21 | 花蓮縣  | Taipei          | Yes      | Yes      |
-| 22 | 連江縣  | Taipei          | Yes      | Yes      |
+| 22 | 連江縣  | Taipei          | Yes      | Yes      | -->
 
 ## 詳細
 1.  [台北市 Taipei](#台北市-taipei)
@@ -60,7 +60,7 @@
 網站顯示資料和存在CKAN API裡不符
 因為存在「子資料集」的設定，清冊和API兩個對比網站上數量不合，容易令人困惑
 
-### 桃園市 Yaoyuan
+### 桃園市 Taoyuan
 清冊資料完整，除了瀏覽、下載次數沒有放進去
 介面簡單、清楚
 
