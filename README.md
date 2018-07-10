@@ -28,9 +28,9 @@
 
 ## 詳細
 1.  [台北市 Taipei](#台北市-taipei)
-2.  [新北市 Taipei](#新北市-newtaipei)
-3.  [桃園市 Taipei](#桃園市-taoyuan)
-4.  [新竹市 Taipei](#新竹市-taipei)
+2.  [新北市 NewTaipei](#新北市-newtaipei)
+3.  [桃園市 Taoyuan](#桃園市-taoyuan)
+<!-- 4.  [新竹市 Taipei](#新竹市-taipei)
 5.  [台南市 Taipei](#台南市-taipei)
 6.  [宜蘭縣 Taipei](#宜蘭縣-taipei)
 7.  [新竹縣 Taipei](#新竹縣-taipei)
@@ -48,7 +48,7 @@
 19. [雲林縣 Taipei](#雲林縣-taipei)
 20. [嘉義縣 Taipei](#嘉義縣-taipei)
 21. [花蓮縣 Taipei](#花蓮縣-taipei)
-22. [連江縣 Taipei](#連江縣-taipei)
+22. [連江縣 Taipei](#連江縣-taipei) -->
 
 ### 台北市 Taipei
 清冊資料完整
@@ -66,7 +66,7 @@
 
 ### 新竹市 Hsinchu
 
-### 台南市 Taipei
+<!-- ### 台南市 Taipei
 ### 宜蘭縣 Taipei
 ### 新竹縣 Taipei
 ### 台中市 Taipei
@@ -83,4 +83,4 @@
 ### 雲林縣 Taipei
 ### 嘉義縣 Taipei
 ### 花蓮縣 Taipei
-### 連江縣 Taipei
+### 連江縣 Taipei -->
