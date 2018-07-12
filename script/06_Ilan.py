@@ -28,9 +28,10 @@ def getEach(i, id):
     temp["資料集名稱"] = res["title"]
 
     for each in res['extras']:
-        if each['key'] == '主要欄位說明':
+        key = each['key']
+        if key == '主要欄位說明':
             temp['主要欄位'] = each['value']
-        elif each['key'] == '資料量':
+        elif key == '資料量':
             temp['資料量'] = each['value']
 
     print(i, temp['資料集名稱'], 'finish')

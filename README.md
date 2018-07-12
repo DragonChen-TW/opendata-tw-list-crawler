@@ -1,16 +1,16 @@
 # 台灣各縣市Open Data網站—資料清冊爬蟲
 
 ## 比較
-| No | City   | Name            | Frame    | auto?    |
-|----|--------|-----------------|:--------:|:--------:|
-| 1  | 台北市  | Taipei          | No       | Yes      |
-| 2  | 新北市  | NewTaipei       | CKAN     | Yes      |
-| 3  | 桃園市  | Taoyuan         | No       | Yes      |
-| 4  | 新竹市  | Hsinchu         | CKAN     | Yes      |
-| 5  | 台南市  | Tainan          | CKAN     | Yes      |
-| 6  | 宜蘭縣  | Ilan            | CKAN      | Yes      |
-<!-- | 7  | 新竹縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 8  | 台中市  | Taipei          | Yes      | Yes      | -->
+| No | City   | Name            | Frame    | auto?    | Status |
+|----|--------|-----------------|:--------:|:--------:|:------:|
+| 1  | 台北市  | Taipei          | No       | Yes      | Finish |
+| 2  | 新北市  | NewTaipei       | CKAN     | No       | No     |
+| 3  | 桃園市  | Taoyuan         | No       | Yes      | Finish |
+| 4  | 新竹市  | Hsinchu         | CKAN     | Yes      | Finish |
+| 5  | 台南市  | Tainan          | CKAN     | Yes      | Finish |
+| 6  | 宜蘭縣  | Ilan            | CKAN     | Yes      | Finish |
+| 7  | 新竹縣  | Hsinchu Country | No       | Yes      | No     |
+| 8  | 台中市  | Taichung        | CKAN?    | Yes      | Finish |
 <!-- | 9  | 高雄市  | Taipei          | Yes      | Yes      | -->
 <!-- | 10 | 金門縣  | Taipei          | Yes      | Yes      | -->
 <!-- | 11 | 南投縣  | Taipei          | Yes      | Yes      | -->
@@ -33,8 +33,8 @@
 4.  [新竹市 Hsinchu](#新竹市-hsinchu)
 5.  [台南市 Tainan](#台南市-tainan)
 6.  [宜蘭縣 Ilan](#宜蘭縣-ilan)
-<!-- 7.  [新竹縣 Taipei](#新竹縣-taipei) -->
-<!-- 8.  [台中市 Taipei](#台中市-taipei) -->
+7.  [新竹縣 Hsinchu Country](#新竹縣-hsinchu-country)
+8.  [台中市 Taichung](#台中市-taichung)
 <!-- 9.  [高雄市 Taipei](#高雄市-taipei) -->
 <!-- 10. [金門縣 Taipei](#金門縣-taipei) -->
 <!-- 11. [南投縣 Taipei](#南投縣-taipei) -->
@@ -61,12 +61,13 @@
 因為存在「子資料集」的設定，清冊和API兩個對比網站上數量不合，容易令人困惑  
 
 ### 桃園市 Taoyuan
-清冊資料完整，除了瀏覽、下載次數沒有放進去  
+清冊資料完整，除了瀏覽、下載次數在網頁端沒有放進去  
 介面簡單、清楚
 
 ### 新竹市 Hsinchu
 清冊資料過少
-缺少下載、瀏覽次數
+缺少下載、瀏覽次數  
+有些重要資訊存放在CKAN的「extras」欄位裡面
 
 ### 台南市 Tainan
 無清冊
@@ -74,21 +75,31 @@
 有利用CKAN存瀏覽、下載次數，讚
 
 ### 宜蘭縣 Ilan
+存放資訊過少（僅有部分有資料量和主要欄位）
+有些重要資訊存放在CKAN的「extras」欄位裡面
+
+### 新竹縣 Hsinchu Country
 pass
 
-<!-- ### 新竹縣 Taipei
-### 台中市 Taipei
-### 高雄市 Taipei
-### 金門縣 Taipei
-### 南投縣 Taipei
-### 嘉義市 Taipei
-### 澎湖縣 Taipei
-### 台東縣 Taipei
-### 屏東縣 Taipei
-### 基隆市 Taipei
-### 苗栗縣 Taipei
-### 彰化縣 Taipei
-### 雲林縣 Taipei
-### 嘉義縣 Taipei
-### 花蓮縣 Taipei
-### 連江縣 Taipei -->
+### 台中市 Taichung
+清冊缺少下載瀏覽（但網站有）
+資料完整度大幅度上升（全部都有！）  
+不過前端API似乎改用swagger  
+但CKAN裡面的資料數量和id搭不上swagger  
+不太確定他們的架構  
+因此，開發說明需更新才能讓開發者使用
+
+<!-- ### 高雄市 Taipei -->
+<!-- ### 金門縣 Taipei -->
+<!-- ### 南投縣 Taipei -->
+<!-- ### 嘉義市 Taipei -->
+<!-- ### 澎湖縣 Taipei -->
+<!-- ### 台東縣 Taipei -->
+<!-- ### 屏東縣 Taipei -->
+<!-- ### 基隆市 Taipei -->
+<!-- ### 苗栗縣 Taipei -->
+<!-- ### 彰化縣 Taipei -->
+<!-- ### 雲林縣 Taipei -->
+<!-- ### 嘉義縣 Taipei -->
+<!-- ### 花蓮縣 Taipei -->
+<!-- ### 連江縣 Taipei -->

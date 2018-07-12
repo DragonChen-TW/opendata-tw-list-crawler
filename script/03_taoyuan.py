@@ -18,7 +18,6 @@ def downloadList(list_url, f_name):
 
 def load():
     global data
-    temp = []
     with open(f'../out/raw/{f_name}.csv') as csv_f:
         reader = csv.DictReader(csv_f)
         data = [line for line in reader]
