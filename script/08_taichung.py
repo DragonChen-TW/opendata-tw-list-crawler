@@ -27,7 +27,7 @@ def getEach(row):
     res = requests.get(url)
     soup = BeautifulSoup(res.text, 'html.parser')
 
-    row['編號'] = row['\ufeff編號']
+    row['編號'] = int(row['\ufeff編號'])
 
     # soup
     dl = soup.find('aside')
@@ -79,7 +79,7 @@ def process():
 
 if __name__ == '__main__':
     list_url = 'http://opendata.taichung.gov.tw/dataset/download_all'
-    f_name = '08_Taichung'
+    f_name = '08_taichung'
 
     # ===== Download or Load data =====
     # downloadList(list_url, f_name)

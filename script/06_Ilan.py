@@ -58,7 +58,7 @@ def process():
     data = temp_list
 
 if __name__ == '__main__':
-    f_name = '06_Ilan'
+    f_name = '06_ilan'
 
     # ===== Download or Load data =====
     load()
