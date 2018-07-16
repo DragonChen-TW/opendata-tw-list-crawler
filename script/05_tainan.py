@@ -1,6 +1,6 @@
 '''
 Author: SmallDragon Chen
-City:   New Taipei
+City:   Tainan
 Url:    http://data.tainan.gov.tw/
 '''
 import requests

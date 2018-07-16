@@ -11,7 +11,7 @@
 | 6  | 宜蘭縣  | Ilan            | CKAN     | Yes      | Finish |
 | 7  | 新竹縣  | Hsinchu Country | No       | Yes      | No     |
 | 8  | 台中市  | Taichung        | CKAN?    | Yes      | Finish |
-<!-- | 9  | 高雄市  | Taipei          | Yes      | Yes      | -->
+| 9  | 高雄市  | Kaohsiung       | CKAN     | Yes      | Finish |
 <!-- | 10 | 金門縣  | Taipei          | Yes      | Yes      | -->
 <!-- | 11 | 南投縣  | Taipei          | Yes      | Yes      | -->
 <!-- | 12 | 嘉義市  | Taipei          | Yes      | Yes      | -->
@@ -35,7 +35,7 @@
 6.  [宜蘭縣 Ilan](#宜蘭縣-ilan)
 7.  [新竹縣 Hsinchu Country](#新竹縣-hsinchu-country)
 8.  [台中市 Taichung](#台中市-taichung)
-<!-- 9.  [高雄市 Taipei](#高雄市-taipei) -->
+9.  [高雄市 Kaohsiung](#高雄市-kaohsiung)
 <!-- 10. [金門縣 Taipei](#金門縣-taipei) -->
 <!-- 11. [南投縣 Taipei](#南投縣-taipei) -->
 <!-- 12. [嘉義市 Taipei](#嘉義市-taipei) -->
@@ -87,9 +87,12 @@ pass
 不過前端API似乎改用swagger  
 但CKAN裡面的資料數量和id搭不上swagger  
 不太確定他們的架構  
-因此，開發說明需更新才能讓開發者使用
+開發說明需更新才能讓開發者使用
 
-<!-- ### 高雄市 Taipei -->
+### 高雄市 Kaohsiung
+CKAN有存瀏覽次數，但沒存下載次數  
+伺服器不夠穩定
+
 <!-- ### 金門縣 Taipei -->
 <!-- ### 南投縣 Taipei -->
 <!-- ### 嘉義市 Taipei -->
