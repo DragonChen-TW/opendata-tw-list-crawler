@@ -12,11 +12,11 @@
 | 7  | 新竹縣  | Hsinchu Country | No       | Yes      | No     |
 | 8  | 台中市  | Taichung        | CKAN?    | Yes      | Finish |
 | 9  | 高雄市  | Kaohsiung       | CKAN     | Yes      | Finish |
-<!-- | 10 | 金門縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 11 | 南投縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 12 | 嘉義市  | Taipei          | Yes      | Yes      | -->
-<!-- | 13 | 澎湖縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 14 | 台東縣  | Taipei          | Yes      | Yes      | -->
+| 10 | 金門縣  | Kinmen          | No       | Yes      | FInish |
+| 11 | 南投縣  | Nantou          | CKAN     | Yes      | Finish |
+| 12 | 嘉義市  | Chiayi          | No       | Yes      | Finish |
+| 13 | 澎湖縣  | Penghu          | CKAN     | Yes      | Finish |
+| 14 | 台東縣  | Taitung         | NO       | Yes      | Finish |
 <!-- | 15 | 屏東縣  | Taipei          | Yes      | Yes      | -->
 <!-- | 16 | 基隆市  | Taipei          | Yes      | Yes      | -->
 <!-- | 17 | 苗栗縣  | Taipei          | Yes      | Yes      | -->
@@ -36,11 +36,11 @@
 7.  [新竹縣 Hsinchu Country](#新竹縣-hsinchu-country)
 8.  [台中市 Taichung](#台中市-taichung)
 9.  [高雄市 Kaohsiung](#高雄市-kaohsiung)
-<!-- 10. [金門縣 Taipei](#金門縣-taipei) -->
-<!-- 11. [南投縣 Taipei](#南投縣-taipei) -->
-<!-- 12. [嘉義市 Taipei](#嘉義市-taipei) -->
-<!-- 13. [澎湖縣 Taipei](#澎湖縣-taipei) -->
-<!-- 14. [台東縣 Taipei](#台東縣-taipei) -->
+10. [金門縣 Kinmen](#金門縣-kinmen)
+11. [南投縣 Nantou](#南投縣-nantou)
+12. [嘉義市 Chiayi](#嘉義市-chiayi)
+13. [澎湖縣 Penghu](#澎湖縣-penghu)
+14. [台東縣 Taitung](#台東縣-taitung)
 <!-- 15. [屏東縣 Taipei](#屏東縣-taipei) -->
 <!-- 16. [基隆市 Taipei](#基隆市-taipei) -->
 <!-- 17. [苗栗縣 Taipei](#苗栗縣-taipei) -->
@@ -93,11 +93,26 @@ pass
 CKAN有存瀏覽次數，但沒存下載次數  
 伺服器不夠穩定
 
-<!-- ### 金門縣 Taipei -->
-<!-- ### 南投縣 Taipei -->
-<!-- ### 嘉義市 Taipei -->
-<!-- ### 澎湖縣 Taipei -->
-<!-- ### 台東縣 Taipei -->
+### 金門縣 Kinmen
+自有平台，普通web儲存
+缺少大量欄位
+
+### 南投縣 Nantou
+pass
+
+### 嘉義市 Chiayi
+自有平台、似乎是自有API
+介面、資料顯示頗清楚
+API應該有更多功能，但不知如何存取
+開發者指引現在是空的
+
+### 澎湖縣 Penghu
+pass
+
+### 台東縣 Taitung
+伺服器不穩定
+資料集分類很差
+
 <!-- ### 屏東縣 Taipei -->
 <!-- ### 基隆市 Taipei -->
 <!-- ### 苗栗縣 Taipei -->
