@@ -17,14 +17,14 @@
 | 12 | 嘉義市  | Chiayi          | No       | Yes      | Finish |
 | 13 | 澎湖縣  | Penghu          | CKAN     | Yes      | Finish |
 | 14 | 台東縣  | Taitung         | NO       | Yes      | Finish |
-<!-- | 15 | 屏東縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 16 | 基隆市  | Taipei          | Yes      | Yes      | -->
-<!-- | 17 | 苗栗縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 18 | 彰化縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 19 | 雲林縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 20 | 嘉義縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 21 | 花蓮縣  | Taipei          | Yes      | Yes      | -->
-<!-- | 22 | 連江縣  | Taipei          | Yes      | Yes      | -->
+| 15 | 屏東縣  | Pingtung        | data.gov | Yes      | Finish |
+| 16 | 基隆市  | Keelung         | data.gov | Yes      | Finish |
+| 17 | 苗栗縣  | Miaoli          | data.gov | Yes      | Finish |
+| 18 | 彰化縣  | Changhua        | data.gov | Yes      | Finish |
+| 19 | 雲林縣  | Yunlin          | data.gov | Yes      | Finish |
+| 20 | 嘉義縣  | Chiayi Country  | data.gov | Yes      | Finish |
+| 21 | 花蓮縣  | Hualien         | data.gov | Yes      | Finish |
+| 22 | 連江縣  | Lianjiang       | data.gov | Yes      | Finish |
 
 ## 詳細
 1.  [台北市 Taipei](#台北市-taipei)
@@ -41,14 +41,14 @@
 12. [嘉義市 Chiayi](#嘉義市-chiayi)
 13. [澎湖縣 Penghu](#澎湖縣-penghu)
 14. [台東縣 Taitung](#台東縣-taitung)
-<!-- 15. [屏東縣 Taipei](#屏東縣-taipei) -->
-<!-- 16. [基隆市 Taipei](#基隆市-taipei) -->
-<!-- 17. [苗栗縣 Taipei](#苗栗縣-taipei) -->
-<!-- 18. [彰化縣 Taipei](#彰化縣-taipei) -->
-<!-- 19. [雲林縣 Taipei](#雲林縣-taipei) -->
-<!-- 20. [嘉義縣 Taipei](#嘉義縣-taipei) -->
-<!-- 21. [花蓮縣 Taipei](#花蓮縣-taipei) -->
-<!-- 22. [連江縣 Taipei](#連江縣-taipei) -->
+15. [屏東縣 Pingtung](#屏東縣-pingtung)
+16. [基隆市 Keelung](#基隆市-keelung)
+17. [苗栗縣 Miaoli](#苗栗縣-miaoli)
+18. [彰化縣 Changhua](#彰化縣-changhua)
+19. [雲林縣 Yunlin](#雲林縣-yunlin)
+20. [嘉義縣 Chiayi Country](#嘉義縣-chiayi-country)
+21. [花蓮縣 Hualien](#花蓮縣-hualien)
+22. [連江縣 Lianjiang](#連江縣-lianjiang)
 
 ### 台北市 Taipei
 清冊資料完整  
@@ -113,11 +113,15 @@ pass
 伺服器不穩定
 資料集分類很差
 
-<!-- ### 屏東縣 Taipei -->
-<!-- ### 基隆市 Taipei -->
-<!-- ### 苗栗縣 Taipei -->
-<!-- ### 彰化縣 Taipei -->
-<!-- ### 雲林縣 Taipei -->
-<!-- ### 嘉義縣 Taipei -->
-<!-- ### 花蓮縣 Taipei -->
-<!-- ### 連江縣 Taipei -->
+### 屏東縣 Pingtung
+（另有自有平台，且有新舊兩個，有點混亂）
+### 基隆市 Keelung
+### 苗栗縣 Miaoli
+### 彰化縣 Changhua
+### 雲林縣 Yunlin
+### 嘉義縣 Chiayi Country
+### 花蓮縣 Hualien
+### 連江縣 Lianjiang
+
+都放在data.gov上，清冊可用但是下載是另外一個清冊
+建議可把兩個合併
